@@ -127,7 +127,7 @@ position:relative;
 overflow:hidden;
 -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,.03);
 box-shadow:inset 0 0 0 1px rgba(0,0,0,.03);
-background-image:url(/images/box_shadow_button.png);
+background-image:url(images/box_shadow_button.png);
 background-repeat:repeat-x;
 background-color:#B82669;
 color:#FFF
@@ -760,7 +760,7 @@ top:100%;
 z-index:205;
 margin:0;
 display:none;
-background-image:url(/images/box_shadow.png);
+background-image:url(images/box_shadow.png);
 background-repeat:repeat-x;
 background-position:left top
 }
@@ -1583,7 +1583,7 @@ background:none
 }
 
 table tr:first-child td {
-background:url(/images/box_shadow.png) repeat-x left top
+background:url(images/box_shadow.png) repeat-x left top
 }
 
 table tr:nth-child(2n) td {
