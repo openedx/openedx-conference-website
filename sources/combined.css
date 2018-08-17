@@ -756,7 +756,7 @@ top:100%;
 z-index:205;
 margin:0;
 display:none;
-background-image:url(../images/box_shadow.png);
+background-image:url(images/box_shadow.png);
 background-repeat:repeat-x;
 background-position:left top
 }
@@ -1579,7 +1579,7 @@ background:none
 }
 
 table tr:first-child td {
-background:url(../images/box_shadow.png) repeat-x left top
+background:url(images/box_shadow.png) repeat-x left top
 }
 
 table tr:nth-child(2n) td {
