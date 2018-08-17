@@ -35,7 +35,7 @@
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-state-processing a,.ui-tabs .ui-tabs-nav li.ui-state-active a{cursor:text}
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a:after,.ui-tabs .ui-tabs-nav li.ui-state-disabled a:after,.ui-tabs .ui-tabs-nav li.ui-state-processing a:after,.ui-tabs .ui-tabs-nav li.ui-state-active a:after{content:"";display:block;height:1px;width:80%;position:absolute;left:50%;margin-left:-40%;bottom:-1px;z-index:2}
 .ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{cursor:pointer}
-.ui-tabs .ui-tabs-panel{display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-image:url(../../images/box_shadow.png);background-repeat:repeat-x;background-position:left top;border-width:0;padding:15px 20px 20px;margin:0;overflow:hidden;}
+.ui-tabs .ui-tabs-panel{display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-image:url(../images/box_shadow.png);background-repeat:repeat-x;background-position:left top;border-width:0;padding:15px 20px 20px;margin:0;overflow:hidden;}
 .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab.ui-tabs-panel { background-color:#fff;}
 .ui-tabs .ui-tabs-panel p:last-child{margin-bottom:0}
 .ui-tabs .ui-tabs-hide{display:none!important}
