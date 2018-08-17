@@ -241,8 +241,8 @@ padding:0
 
 @font-face {
 font-family:'mfn-icons';
-src:url(/fonts/mfn-icons.eot?23391439);
-src:url(/fonts/mfn-icons.eot?23391439#iefix) format("embedded-opentype"),url(/fonts/mfn-icons.woff?23391439) format("woff"),url(/fonts/mfn-icons.ttf?23391439) format("truetype"),url(/fonts/mfn-icons.svg?23391439#mfn-icons) format("svg");
+src:url(../..//fonts/mfn-icons.eot?23391439);
+src:url(../..//fonts/mfn-icons.eot?23391439#iefix) format("embedded-opentype"),url(../../fonts/mfn-icons.woff?23391439) format("woff"),url(../../fonts/mfn-icons.ttf?23391439) format("truetype"),url(../../fonts/mfn-icons.svg?23391439#mfn-icons) format("svg");
 font-weight:400;
 font-style:normal
 }
@@ -1574,7 +1574,7 @@ vertical-align:middle
 
 table th {
 font-weight:700;
-background:url(/images/bg_panel.png) repeat-x left top
+background:url(../../images/bg_panel.png) repeat-x left top
 }
 
 table th.clear {
