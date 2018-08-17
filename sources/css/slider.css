@@ -176,62 +176,62 @@ imageAnimation {  0% {
 }
 
 #slider-wrapper ul > li:nth-child(1) {
-	background-image: url('/images/slider/ucsd-night-seal.jpg');
+	background-image: url('images/slider/ucsd-night-seal.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(2) {
   animation-delay: 8s;
-  background-image: url('/images/slider/fiona.jpg');
+  background-image: url('images/slider/fiona.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(3) {
   animation-delay: 16s;
-  background-image: url('/images/slider/anant.jpg');
+  background-image: url('images/slider/anant.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(4) {
   animation-delay: 24s;
-  background-image: url('/images/slider/crowd-shot-jeremy.jpg');
+  background-image: url('images/slider/crowd-shot-jeremy.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(5) {
   animation-delay: 32s;
-  background-image: url('/images/slider/jmw.jpg');
+  background-image: url('images/slider/jmw.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(6) {
   animation-delay: 40s;
-  background-image: url('/images/slider/openedx-team.jpg');
+  background-image: url('images/slider/openedx-team.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(7) {
   animation-delay: 48s;
-  background-image: url('/images/slider/nimisha.jpg');
+  background-image: url('images/slider/nimisha.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(8) {
   animation-delay: 56s;
-  background-image: url('/images/slider/reception.jpg');
+  background-image: url('images/slider/reception.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(9) {
   animation-delay: 64s;
-  background-image: url('/images/slider/reception-2.jpg');
+  background-image: url('images/slider/reception-2.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(10) {
   animation-delay: 72s;
-  background-image: url('/images/slider/sidebar.jpg');
+  background-image: url('images/slider/sidebar.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(11) {
   animation-delay: 80s;
-  background-image: url('/images/slider/reg-area.jpg');
+  background-image: url('images/slider/reg-area.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(12) {
   animation-delay: 88s;
-  background-image: url('/images/slider/msft.jpg');
+  background-image: url('images/slider/msft.jpg');
 }
 
 /* Accordion Styles */
