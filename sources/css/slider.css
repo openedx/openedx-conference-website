@@ -176,12 +176,12 @@ imageAnimation {  0% {
 }
 
 #slider-wrapper ul > li:nth-child(1) {
-	background-image: url('../../images/slider/ucsd-night-seal.jpg');
+	background-image: url('../../images/slider/Geisel_Library_seal.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(2) {
   animation-delay: 8s;
-  background-image: url('../../images/slider/fiona.jpg');
+  background-image: url('../../images/slider/ucsd-aerial.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(3) {
