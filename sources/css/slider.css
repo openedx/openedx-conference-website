@@ -59,9 +59,28 @@
 		font-size: 30px;
 	}
 
+/*
 	.slider-content h1 .host {
 		font-size: 24px;
 		line-height: 2;
+	}
+	*/
+
+	.slider-content h1 .host {
+		font-size: 20px;
+		line-height: 1.5;
+		margin-top: 1em;
+		padding-bottom: .75em;
+	}
+
+	.slider-content h1 .host img {
+		display: block;
+		width: 50%;
+		max-width: 500px;
+		background-color: rgba(255, 255, 255, 0.85);
+		border: 0;
+		padding: 0;
+		margin: 0 auto;
 	}
 
 	.slider-content h1 .location {
@@ -176,7 +195,7 @@ imageAnimation {  0% {
 }
 
 #slider-wrapper ul > li:nth-child(1) {
-	background-image: url('../../images/slider/Geisel_Library_seal.jpg');
+	background-image: url('../../images/slider/Geisel_Library-1600px.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(2) {
