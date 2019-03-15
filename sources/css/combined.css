@@ -87,7 +87,7 @@ iframe {
 max-width:100%
 }
 
-.speakers img {
+.speakers img, .speaker img {
 border-radius:200px;
 width:60%;
 height:auto
@@ -2356,4 +2356,18 @@ background-color:#f5f5f5
 
 .section.mcb-section:nth-of-type(odd) {
 background-color:#fff
+}
+
+/* Sponsor logo styling */
+
+#sponsors .column.one img {
+	max-height: 10rem;
+}
+
+#sponsors .column.one-second img {
+	max-height: 8rem;
+}
+
+#sponsors .column.one-third img {
+	max-height: 7rem;
 }
