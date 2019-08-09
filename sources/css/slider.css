@@ -188,12 +188,12 @@ imageAnimation {  0% {
 }
 
 #slider-wrapper ul > li:nth-child(1) {
-	background-image: url('../../images/slider/Geisel_Library-1600px.jpg');
+	background-image: url('../../images/slider/nova-aerial.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(2) {
   animation-delay: 8s;
-  background-image: url('../../images/slider/ucsd-aerial.jpg');
+  background-image: url('../../images/slider/nova-sunlight.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(3) {
@@ -213,12 +213,12 @@ imageAnimation {  0% {
 
 #slider-wrapper ul > li:nth-child(6) {
   animation-delay: 40s;
-  background-image: url('../../images/slider/openedx-team.jpg');
+  background-image: url('../../images/slider/reception-2.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(7) {
   animation-delay: 48s;
-  background-image: url('../../images/slider/nimisha.jpg');
+  background-image: url('../../images/slider/nimisha-ucsd.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(8) {
@@ -228,7 +228,7 @@ imageAnimation {  0% {
 
 #slider-wrapper ul > li:nth-child(9) {
   animation-delay: 64s;
-  background-image: url('../../images/slider/reception-2.jpg');
+  background-image: url('../../images/slider/classroom-breakout.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(10) {
