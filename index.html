@@ -44,6 +44,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="stylesheet" id="edx-slider" href="sources/css/slider.css" type="text/css" media="all">
 	<link rel="stylesheet" id="edx-skin" href="sources/css/combined.css" type="text/css" media="all">
 	<link rel="stylesheet" id="edx-fonts" href="sources/css/fonts.css" type="text/css" media="all">
+	<style>
+	table.grid td {
+		padding: .1em .25em;
+		vertical-align: top;
+	}
+	table.grid .speaker {
+		font-weight: bold;
+	}
+	table.grid .from {
+		font-style: italic;
+	}
+	table.grid p {
+		font-size: 100%;
+		line-height: 1.15;
+		margin: .25em 0;
+	}
+	table.grid .title {
+		/* font-style: italic; */
+	}
+	</style>
 	<script type="text/javascript" src="sources/jquery.js"></script>
 	<link rel="canonical" href="https://con.openedx.org/">
 
@@ -128,12 +148,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<li id="menu-item-38" class="menu-item"><a href="#about" data-hash="#about"><span>About</span></a></li>
 										<li id="menu-item-42" class="menu-item"><a href="https://openedx2021may.eventbrite.com?aff=confwebsite" target="_blank"><span>Register</span></a></li>
 										<li id="menu-item-40" class="menu-item"><a href="#speakers" data-hash="#speakers"><span>Speakers</span></a></li>
-										<li id="menu-item-70" class="menu-item"><a href="#faq" data-hash="#faq"><span>FAQ</span></a></li>
-								<!--
 										<li id="menu-item-39" class="menu-item"><a href="#schedule" data-hash="#schedule"><span>Schedule</span></a></li>
+								<!--
 										<li id="menu-item-44" class="menu-item"><a href="#location" data-hash="#location"><span>Location</span></a></li>
 								-->
 										<li id="menu-item-43" class="menu-item"><a href="#sponsors" data-hash="#sponsors"><span>Sponsors</span></a></li>
+										<li id="menu-item-70" class="menu-item"><a href="#faq" data-hash="#faq"><span>FAQ</span></a></li>
 									</ul>
 								</nav>
 							</div>
@@ -293,117 +313,99 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						  </div>
 						</div>
 					</div>
-					<div class="section mcb-section" id="talks" data-id="#talks">
+					<div class="section mcb-section" id="schedule" data-id="#schedule">
 						<div class="section_wrapper">
 							<div class="wrap mcb-wrap one column-margin-40px clearfix">
 								<div class="column one column_column ">
 									<div class="column_attr clearfix align_center">
-										<h2>Talks</h2>
+										<h2>Schedule</h2>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="section_wrapper">
-							<div class="wrap mcb-wrap one clearfix">
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Eran Raviv</h3>
-											<div class="desc">
-											  <p>Director, Campus-IL</p>
-											  <p><strong>Five Models of Blended Learning</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Michael Karsh</h3>
-											<div class="desc">
-											  <p>Co-Founder, Edios Media</p>
-												<p><strong>Using Narrative to Increase Learner Engagement</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Braden McDonald</h3>
-											<div class="desc">
-											  <p>CTO, OpenCraft</p>
-											  <p><strong>Building with Blockstore - How We Developed LabXchange using Open edX</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-							</div>
-							<div class="wrap mcb-wrap one clearfix">
-								<div class="column one-sixth column_column">&nbsp;</div>
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Daniel Quiroga</h3>
-											<div class="desc">
-											  <p>Backend Developer, eduNEXT</p>
-												<p><strong>Micro-Frontends, From Local to Production Environment</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Marco Morales</h3>
-											<div class="desc">
-											  <p>Product Manager, edX</p>
-											  <p><strong>Teaching and Learning Platform Direction</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-							</div>
-							<div class="wrap mcb-wrap one clearfix">
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Nimisha Asthagiri, Sarina Canelake, Jeremy Bowman</h3>
-											<div class="desc">
-											  <p>Open edX Engineering Managers, edX</p>
-											  <p><strong>Shaping the Open edX Platform with APIs, Boundaries, and Shared Ownership</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Andrés González</h3>
-											<div class="desc">
-											  <p>CTO, Aulasneo</p>
-											  <p><strong>Machine Learning Techniques for Open edX courses</strong></p>
-                                          </div>
-									  </div>
-									</div>
-								</div>
-								<div class="column one-third column_column">
-									<div class="icon_box speaker">
-										<div class="image_wrapper"> </div>
-										<div class="desc_wrapper">
-											<h3 class="title">Stefania Trabucchi, Ilaria Botti</h3>
-											<div class="desc">
-											  <p>Abstract Technology</p>
-											  <p><strong>The importance of collaborative learning: How to build an effective Open edX course</strong></p>
-                                          </div>
-									  </div>
+							<div class="wrap mcb-wrap one column-margin-40px clearfix">
+								<div class="column one column_column ">
+									<div class="column_attr clearfix align_center">
+										<table class="grid">
+											<tr>
+												<th width="10%">Time (EDT)</th>
+												<th width="45%">Aspen Room</th>
+												<th width="45%">Birch Room</th>
+											</tr>
+											<tr>
+												<td>9:00</td>
+												<td colspan="2">Introduction</td>
+											</tr>
+											<tr>
+												<td>9:05</td>
+												<td colspan="2">Keynote: <span class="speaker">Anant Agarwal</span>
+													(CEO edX Inc.)</td>
+											</tr>
+											<tr>
+												<td>9:15</td>
+												<td colspan="2">Keynote: <span class="speaker">Sanjay Sarma</span>
+													(VP Open Learning at MIT)</td>
+											</tr>
+											<tr>
+												<td>9:45</td>
+												<td colspan="2">Break</td>
+											</tr>
+											<tr>
+												<td>9:50</td>
+												<td><p><span class="speaker">Eran Raviv</span> (Director, Campus-IL)</p>
+													<p class="title">5 Models of Blended Learning</p></td>
+												<td><p><span class="speaker">Stefania Trabucchi, Ilaria Botti</span>
+													(Abstract Technology)</p>
+													<p class="title">The importance of collaborative learning: How to
+														build an effective Open edX course</p></td>
+											</tr>
+											<tr>
+												<td>10:20</td>
+												<td colspan="2">Break</td>
+											</tr>
+											<tr>
+												<td>10:25</td>
+												<td><p><span class="speaker">Braden McDonald</span> (CTO, OpenCraft)</p>
+													<p class="title">Building with Blockstore - How We Developed LabXchange using Open edX</p>
+												</td>
+												<td><p><span class="speaker">Michael Karsh</span> (Co-Founder, Edios
+													Media)</p>
+													<p class="title">Using Narrative to Increase Learner Engagement</p>
+												</td>
+											</tr>
+											<tr>
+												<td>10:55</td>
+												<td colspan="2">Social time in Gather</td>
+											</tr>
+											<tr>
+												<td>11:25</td>
+												<td><p><span class="speaker">Daniel Quiroga</span> (eduNEXT)</p>
+													<p class="title">Micro-Frontends, From Local to Production Environment</p>
+												</td>
+												<td><p><span class="speaker">Andrés González</span> (CTO, Aulasneo)</p>
+													<p class="title">Machine Learning Techniques for Open edX courses</p>
+												</td>
+											</tr>
+											<tr>
+												<td>11:55</td>
+												<td colspan="2">Break</td>
+											</tr>
+											<tr>
+												<td>12:00</td>
+												<td><p><span class="speaker">Nimisha Asthagiri, Sarina Canelake, Jeremy
+														Bowman</span> (edX Engineering)</p>
+													<p class="title">Shaping the Open edX Platform with APIs, Boundaries, and Shared Ownership</p>
+												</td>
+												<td><p><span class="speaker">Marco Morales</span> (edX Product)</p>
+													<p class="title">Teaching and Learning Platform Direction</p>
+												</td>
+											</tr>
+											<tr>
+												<td>12:30</td>
+												<td colspan="2">Social time in Gather</td>
+											</tr>
+										</table>
 									</div>
 								</div>
 							</div>
