@@ -153,19 +153,6 @@
 }
 
 
-/* Neutered slider for just a single image. */
-#slider-wrapper li {
-	backface-visibility: hidden;
-	background-size: cover;
-	background-position: center center;
-	height: 100%;
-	left: 0px;
-	position: absolute;
-	width: 100%;
-	z-index: 0;
-}
-/*
- * The real slider animation:
 #slider-wrapper li {
 	animation: imageAnimation 96s linear infinite 0s;
 	backface-visibility: hidden;
@@ -181,29 +168,27 @@
 }
 
 @keyframes
-imageAnimation {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 0;
-	}
-	3% {
-		animation-timing-function: ease-out;
-		opacity: .9;
-	}
-	7% {
-		opacity: .9
-	}
-	12% {
-		opacity: 0
-	}
-	100% {
-		opacity: 0
-	}
+imageAnimation {  0% {
+	animation-timing-function: ease-in;
+	opacity: 0;
 }
-*/
+ 3% {
+ animation-timing-function: ease-out;
+ opacity: .9;
+}
+ 7% {
+ opacity: .9
+}
+ 12% {
+ opacity: 0
+}
+ 100% {
+ opacity: 0
+}
+}
 
 #slider-wrapper ul > li:nth-child(1) {
-	background-image: url('../../images/slider/face-over-zoom.jpg');
+	background-image: url('../../images/slider/nova-sunset.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(2) {
