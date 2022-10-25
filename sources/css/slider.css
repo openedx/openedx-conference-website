@@ -188,62 +188,42 @@ imageAnimation {  0% {
 }
 
 #slider-wrapper ul > li:nth-child(1) {
-	background-image: url('../../images/slider/nova-sunset.jpg');
+	background-image: url('../../images/slider/open-edx-conference-2023-photo-of-mit-campus.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(2) {
   animation-delay: 8s;
-  background-image: url('../../images/slider/nova-sunlight.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-close-up-of-attendees-talking.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(3) {
   animation-delay: 16s;
-  background-image: url('../../images/slider/anant.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-photo-close-up-of-attendees-on-computers.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(4) {
   animation-delay: 24s;
-  background-image: url('../../images/slider/crowd-shot-jeremy.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-photo-of-attendees-in-presentation.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(5) {
   animation-delay: 32s;
-  background-image: url('../../images/slider/jmw.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-photo-of-attendees-talking.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(6) {
   animation-delay: 40s;
-  background-image: url('../../images/slider/reception-2.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-photo-of-mit-campus-at-night.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(7) {
   animation-delay: 48s;
-  background-image: url('../../images/slider/nimisha-ucsd.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-aerial-photo-of-mit-campus.jpg');
 }
 
 #slider-wrapper ul > li:nth-child(8) {
   animation-delay: 56s;
-  background-image: url('../../images/slider/reception.jpg');
-}
-
-#slider-wrapper ul > li:nth-child(9) {
-  animation-delay: 64s;
-  background-image: url('../../images/slider/classroom-breakout.jpg');
-}
-
-#slider-wrapper ul > li:nth-child(10) {
-  animation-delay: 72s;
-  background-image: url('../../images/slider/sidebar.jpg');
-}
-
-#slider-wrapper ul > li:nth-child(11) {
-  animation-delay: 80s;
-  background-image: url('../../images/slider/reg-area.jpg');
-}
-
-#slider-wrapper ul > li:nth-child(12) {
-  animation-delay: 88s;
-  background-image: url('../../images/slider/msft.jpg');
+  background-image: url('../../images/slider/open-edx-conference-2023-photo-of-students-on-mit-campus.jpg');
 }
 
 /* Accordion Styles */
